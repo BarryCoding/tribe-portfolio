@@ -37,3 +37,24 @@ pnpm add -D prettier prettier-plugin-tailwindcss eslint-config-prettier
   "extends": ["next/core-web-vitals", "next/typescript", "prettier"]
 }
 ```
+
+### initial configurations
+
+- next.config.mjs
+  - webpack svg config `@svgr/webpack`
+- postcss.config.mjs
+  - tailwind
+  - autoprefixer
+- tailwind.config.ts
+
+- good idea
+  - opacity bg for different viewport
+
+## Header Section
+
+- [09:44](https://www.youtube.com/watch?v=ELssXP1sTC8&t=584s)  
+
+- font setup
+  - layout.tsx
+  - tailwind.config.ts
+  - `antialiased` for better fonts
