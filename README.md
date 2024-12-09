@@ -64,3 +64,6 @@ pnpm add -D prettier prettier-plugin-tailwindcss eslint-config-prettier
 ## Hero Section
 
 - [24:21](https://www.youtube.com/watch?v=ELssXP1sTC8&t=1461s)  
+
+- overflow-x-clip
+  - get rid of scroll-x ?
