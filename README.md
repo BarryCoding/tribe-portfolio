@@ -67,3 +67,4 @@ pnpm add -D prettier prettier-plugin-tailwindcss eslint-config-prettier
 
 - overflow-x-clip
   - get rid of scroll-x ?
+- mask-image

@@ -1,6 +1,7 @@
 export const Header = () => {
   return (
-    <div className='fixed top-3 flex w-full items-center justify-center'>
+    // z-10 to overlay hero bg
+    <div className='fixed top-3 z-10 flex w-full items-center justify-center'>
       <nav className='flex gap-1 rounded-full border border-white/15 bg-white/10 p-0.5 backdrop-blur'>
         <a href='#' className='nav-item'>
           Home
