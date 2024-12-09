@@ -59,3 +59,8 @@ pnpm add -D prettier prettier-plugin-tailwindcss eslint-config-prettier
   - layout.tsx
   - tailwind.config.ts
   - `antialiased` for better fonts
+- customized className in global css
+
+## Hero Section
+
+- [24:21](https://www.youtube.com/watch?v=ELssXP1sTC8&t=1461s)  
