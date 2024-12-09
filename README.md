@@ -47,8 +47,9 @@ pnpm add -D prettier prettier-plugin-tailwindcss eslint-config-prettier
   - autoprefixer
 - tailwind.config.ts
 
-- good idea
+- good idea for browser extension helper
   - opacity bg for different viewport
+  - dragging marker to compare view with design
 
 ## Header Section
 
