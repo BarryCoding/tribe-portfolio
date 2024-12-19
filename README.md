@@ -72,3 +72,14 @@ pnpm add -D prettier prettier-plugin-tailwindcss eslint-config-prettier
 ```bash
 git config --global http.postBuffer 157286400
 ```
+
+## Featured Projects Section
+
+- [1:17:47](https://www.youtube.com/watch?v=ELssXP1sTC8&t=4667s) 
+
+- text with gradient color
+  - inline
+  - transparent text
+  - bg gradient
+- before / after
+- style background image
