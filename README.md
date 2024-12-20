@@ -83,3 +83,11 @@ git config --global http.postBuffer 157286400
   - bg gradient
 - before / after
 - style background image
+
+## Tape Section
+
+- [2:03:12](https://www.youtube.com/watch?v=ELssXP1sTC8&t=7392s) 
+
+- no horizontal scroll
+  - overflow-x-clip
+- mask image
