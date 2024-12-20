@@ -1,51 +1,9 @@
-import darkSaasLandingPage from '@/assets/images/dark-saas-landing-page.png'
-import lightSaasLandingPage from '@/assets/images/light-saas-landing-page.png'
-import aiStartupLandingPage from '@/assets/images/ai-startup-landing-page.png'
-import grainImage from '@/assets/images/grain.jpg'
+import Image from 'next/image'
 import CheckCircleIcon from '@/assets/icons/check-circle.svg'
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg'
-import Image from 'next/image'
 import { SectionHeader } from '@/components/SectionHeader'
-
-// REFACTOR: TO CONSTANTS
-const portfolioProjects = [
-  {
-    company: 'Acme Corp',
-    year: '2022',
-    title: 'Dark Saas Landing Page',
-    results: [
-      { title: 'Enhanced user experience by 40%' },
-      { title: 'Improved site speed by 50%' },
-      { title: 'Increased mobile traffic by 35%' },
-    ],
-    link: 'https://youtu.be/4k7IdSLxh6w',
-    image: darkSaasLandingPage,
-  },
-  {
-    company: 'Innovative Co',
-    year: '2021',
-    title: 'Light Saas Landing Page',
-    results: [
-      { title: 'Boosted sales by 20%' },
-      { title: 'Expanded customer reach by 35%' },
-      { title: 'Increased brand awareness by 15%' },
-    ],
-    link: 'https://youtu.be/7hi5zwO75yc',
-    image: lightSaasLandingPage,
-  },
-  {
-    company: 'Quantum Dynamics',
-    year: '2023',
-    title: 'AI Startup Landing Page',
-    results: [
-      { title: 'Enhanced user experience by 40%' },
-      { title: 'Improved site speed by 50%' },
-      { title: 'Increased mobile traffic by 35%' },
-    ],
-    link: 'https://youtu.be/Z7I5uSRHMHg',
-    image: aiStartupLandingPage,
-  },
-]
+import { Card } from '@/components/Card'
+import { portfolioProjects } from '@/constants/mock'
 
 export const ProjectsSection = () => {
   return (
@@ -56,19 +14,9 @@ export const ProjectsSection = () => {
           title='Featured Projects'
           description='See how I transformed concepts into engaging digital experiences'
         />
-        {/* REFACTOR: Cards or Card */}
         <div className='mt-10 flex flex-col gap-20 md:mt-20'>
           {portfolioProjects.map((p) => (
-            // good use of after as a transparent outline border
-            <div
-              key={p.title}
-              className='relative z-0 overflow-hidden rounded-3xl bg-gray-800 px-8 pt-8 after:pointer-events-none after:absolute after:inset-0 after:z-10 after:rounded-3xl after:outline after:outline-2 after:-outline-offset-2 after:outline-white/20 after:content-[""] md:px-10 md:pt-12 lg:px-20 lg:pt-16'
-            >
-              {/* bg image with style */}
-              <div
-                className='absolute inset-0 -z-10 opacity-5'
-                style={{ backgroundImage: `url(${grainImage.src})` }}
-              />
+            <Card key={p.title} className='px-8 pt-8 md:px-10 md:pt-12 lg:px-20 lg:pt-16'>
               <div className='lg:grid lg:grid-cols-2 lg:gap-16'>
                 <div className='lg:pb-16'>
                   <span className='inline-flex gap-2 bg-gradient-to-r from-emerald-300 to-sky-400 bg-clip-text text-sm font-bold uppercase tracking-widest text-transparent'>
@@ -102,7 +50,7 @@ export const ProjectsSection = () => {
                   />
                 </div>
               </div>
-            </div>
+            </Card>
           ))}
         </div>
       </div>

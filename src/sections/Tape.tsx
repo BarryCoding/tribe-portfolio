@@ -1,18 +1,5 @@
 import StarIcon from '@/assets/icons/star.svg'
-
-// REFACTOR: TO CONSTANTS
-const words = [
-  'Performance',
-  'Accessible',
-  'Secure',
-  'Interactive',
-  'Scalable',
-  'User Friendly',
-  'Responsive',
-  'Maintainable',
-  'SEO',
-  'Reliable',
-]
+import { words } from '@/constants/mock'
 
 export const TapeSection = () => {
   return (
