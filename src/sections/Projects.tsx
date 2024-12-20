@@ -5,7 +5,9 @@ import grainImage from '@/assets/images/grain.jpg'
 import CheckCircleIcon from '@/assets/icons/check-circle.svg'
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg'
 import Image from 'next/image'
+import { SectionHeader } from '@/components/SectionHeader'
 
+// REFACTOR: TO CONSTANTS
 const portfolioProjects = [
   {
     company: 'Acme Corp',
@@ -49,17 +51,11 @@ export const ProjectsSection = () => {
   return (
     <section className='pb-16 lg:py-24'>
       <div className='container'>
-        <p className='text-center'>
-          {/* use bg-gradient as text */}
-          <span className='bg-gradient-to-r from-emerald-300 to-sky-400 bg-clip-text font-semibold uppercase tracking-widest text-transparent'>
-            Real-world Results
-          </span>
-        </p>
-        <h2 className='mt-6 text-center font-serif text-3xl md:text-5xl'>Featured Projects</h2>
-        <p className='mx-auto mt-4 max-w-md text-center text-white/60 md:text-lg lg:text-xl'>
-          See how I transformed concepts into engaging digital experiences
-        </p>
-
+        <SectionHeader
+          eyebrow='Real-world Results'
+          title='Featured Projects'
+          description='See how I transformed concepts into engaging digital experiences'
+        />
         {/* REFACTOR: Cards or Card */}
         <div className='mt-10 flex flex-col gap-20 md:mt-20'>
           {portfolioProjects.map((p) => (

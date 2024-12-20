@@ -91,3 +91,8 @@ git config --global http.postBuffer 157286400
 - no horizontal scroll
   - overflow-x-clip
 - mask image
+
+## Testimonials Section
+
+- [2:15:41](https://www.youtube.com/watch?v=ELssXP1sTC8&t=8141s) 
+

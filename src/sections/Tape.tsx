@@ -1,4 +1,6 @@
 import StarIcon from '@/assets/icons/star.svg'
+
+// REFACTOR: TO CONSTANTS
 const words = [
   'Performance',
   'Accessible',
