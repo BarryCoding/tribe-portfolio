@@ -98,3 +98,10 @@ git config --global http.postBuffer 157286400
 
 - SectionHeader
 - Card
+
+## About Section
+
+- [2:46:31](https://www.youtube.com/watch?v=ELssXP1sTC8&t=9991s) 
+
+- Card and CardHeader
+- TechIcon(SVG) and ToolboxItem

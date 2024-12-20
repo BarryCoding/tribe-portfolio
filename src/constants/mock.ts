@@ -8,6 +8,13 @@ import darkSaasLandingPage from '@/assets/images/dark-saas-landing-page.png'
 import lightSaasLandingPage from '@/assets/images/light-saas-landing-page.png'
 import aiStartupLandingPage from '@/assets/images/ai-startup-landing-page.png'
 
+import JSIcon from '@/assets/icons/square-js.svg'
+import HTML5Icon from '@/assets/icons/html5.svg'
+import CSS3Icon from '@/assets/icons/css3.svg'
+import ReactIcon from '@/assets/icons/react.svg'
+import ChromeIcon from '@/assets/icons/chrome.svg'
+import GithubIcon from '@/assets/icons/github.svg'
+
 export const testimonials = [
   {
     name: 'Alex Turner',
@@ -91,4 +98,23 @@ export const portfolioProjects = [
     link: 'https://youtu.be/Z7I5uSRHMHg',
     image: aiStartupLandingPage,
   },
+]
+
+export const toolboxItems = [
+  { title: 'Javascript', svgElement: JSIcon },
+  { title: 'HTML5', svgElement: HTML5Icon },
+  { title: 'CSS3', svgElement: CSS3Icon },
+  { title: 'React', svgElement: ReactIcon },
+  { title: 'Chrome', svgElement: ChromeIcon },
+  { title: 'Github', svgElement: GithubIcon },
+]
+
+export const hobbies = [
+  { title: 'Painting', emoji: '🎨' },
+  { title: 'Photograph', emoji: '📷' },
+  { title: 'Gaming', emoji: '🎮' },
+  { title: 'Hiking', emoji: '🥾' },
+  { title: 'Music', emoji: '🎵' },
+  { title: 'Fitness', emoji: '🏋️' },
+  { title: 'Reading', emoji: '📚' },
 ]
