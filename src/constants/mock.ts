@@ -110,11 +110,11 @@ export const toolboxItems = [
 ]
 
 export const hobbies = [
-  { title: 'Painting', emoji: '🎨' },
-  { title: 'Photograph', emoji: '📷' },
-  { title: 'Gaming', emoji: '🎮' },
-  { title: 'Hiking', emoji: '🥾' },
-  { title: 'Music', emoji: '🎵' },
-  { title: 'Fitness', emoji: '🏋️' },
-  { title: 'Reading', emoji: '📚' },
+  { title: 'Painting', emoji: '🎨', top: '5%', left: '5%' },
+  { title: 'Photograph', emoji: '📷', top: '5%', left: '50%' },
+  { title: 'Hiking', emoji: '🥾', top: '40%', left: '35%' },
+  { title: 'Gaming', emoji: '🎮', top: '35%', left: '10%' },
+  { title: 'Music', emoji: '🎵', top: '45%', left: '70%' },
+  { title: 'Fitness', emoji: '🏋️', top: '65%', left: '5%' },
+  { title: 'Reading', emoji: '📚', top: '70%', left: '45%' },
 ]
