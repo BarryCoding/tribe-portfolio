@@ -105,3 +105,7 @@ git config --global http.postBuffer 157286400
 
 - Card and CardHeader
 - TechIcon(SVG) and ToolboxItem
+
+## Contact Section
+
+- [3:54:48](https://www.youtube.com/watch?v=ELssXP1sTC8&t=14088s) 
