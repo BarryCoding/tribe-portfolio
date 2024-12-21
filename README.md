@@ -109,3 +109,7 @@ git config --global http.postBuffer 157286400
 ## Contact Section
 
 - [3:54:48](https://www.youtube.com/watch?v=ELssXP1sTC8&t=14088s) 
+
+## Footer Section (part 5)
+
+- [4:09:06](https://www.youtube.com/watch?v=ELssXP1sTC8&t=14946s) 
